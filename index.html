@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3fbff">
+  <meta name="description" content="The personal portfolio of Mark Jerome T. Aguilar, a creative coder, writer, and singer.">
+  <title>Mark Jerome T. Aguilar | Creative Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Mark Jerome Aguilar, home">
+        <span class="brand-mark">MA</span>
+        <span class="brand-name">Mark Jerome <span>Aguilar</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-menu">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links" id="site-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-grain" aria-hidden="true"></div>
+      <span class="float-mark float-mark-one" aria-hidden="true"></span>
+      <span class="float-mark float-mark-two" aria-hidden="true"></span>
+      <span class="float-mark float-mark-three" aria-hidden="true"></span>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> A little creativity, every day</p>
+          <h1 id="hero-title">Mark Jerome<br><span>T. Aguilar</span></h1>
+          <p class="hero-role">Creative Person <i></i> Coder <i></i> Writer <i></i> Singer</p>
+          <p class="hero-intro">I’m a curious, hardworking creative who loves learning, making things, and finding new ways to express an idea.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#about">About me <span aria-hidden="true">↘</span></a>
+            <a class="button button-quiet" href="#work">My work <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-note"><span class="note-dot"></span> Creating and learning at AC Films</div>
+        </div>
+        <div class="hero-visual" aria-label="Profile photo area">
+          <div class="portrait-frame">
+            <div class="portrait" id="profile-portrait" data-profile-photo>
+              <div class="portrait-placeholder" aria-hidden="true">
+                <span class="placeholder-orbit"></span>
+                <span class="placeholder-initials">MA</span>
+                <span class="placeholder-caption">YOUR PHOTO GOES HERE</span>
+              </div>
+              <img class="portrait-img" src="./images/profile.png" alt="Mark Jerome T. Aguilar" hidden>
+            </div>
+            <div class="portrait-label"><span class="label-dot"></span> Creative by nature</div>
+          </div>
+          <div class="visual-caption"><span>01 / 05</span><span>Ideas in motion</span></div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About me"><span></span></a>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div class="section-shell about-layout">
+        <div class="section-intro reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> A little about me</p>
+          <h2 id="about-title">Curious mind.<br><span>Creative heart.</span></h2>
+          <p class="section-aside">I like to keep learning, keep making, and see where a good idea can lead.</p>
+          <div class="portrait about-photo" data-profile-photo>
+            <div class="portrait-placeholder" aria-hidden="true">
+              <span class="placeholder-orbit"></span>
+              <span class="placeholder-initials">MA</span>
+              <span class="placeholder-caption">ADD PROFILE PHOTO</span>
+            </div>
+            <img class="portrait-img" src="./images/profile.png" alt="Mark Jerome T. Aguilar" hidden>
+          </div>
+        </div>
+        <div class="about-detail reveal">
+          <p class="about-copy">I am a simple and hardworking person who enjoys creativity, learning new things, and improving my skills. I enjoy expressing myself through singing, writing, coding, and editing. I also enjoy working on creative projects and gaining new experiences. I currently work at AC Films, where I get to be involved in creative and film-related projects. Through my work and hobbies, I continue to learn, improve, and explore different ways to express my ideas.</p>
+          <div class="about-facts">
+            <div><span class="fact-number">01</span><span class="fact-label">Always learning</span></div>
+            <div><span class="fact-number">02</span><span class="fact-label">Made with creativity</span></div>
+            <div><span class="fact-number">03</span><span class="fact-label">Open to new ideas</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section hobbies-section" id="hobbies" aria-labelledby="hobbies-title">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> What I enjoy</p>
+            <h2 id="hobbies-title">Off the clock, <span>into the flow.</span></h2>
+          </div>
+          <p class="heading-note">A few things that keep me inspired and curious.</p>
+        </div>
+        <div class="hobby-grid">
+          <article class="hobby-card reveal">
+            <span class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span>
+            <span class="card-index">01</span>
+            <h3>Singing</h3>
+            <p>I enjoy singing and expressing my emotions through music.</p>
+          </article>
+          <article class="hobby-card reveal">
+            <span class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/><path d="M3 8c1.2-1 2.2-1 3.4 0M2 5c2-1.8 4.4-1.8 6.4 0"/></svg></span>
+            <span class="card-index">02</span>
+            <h3>Listening to Music</h3>
+            <p>Music helps me relax, focus, and enjoy my free time.</p>
+          </article>
+          <article class="hobby-card reveal">
+            <span class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 4l-4 16"/></svg></span>
+            <span class="card-index">03</span>
+            <h3>Coding</h3>
+            <p>I enjoy creating websites, exploring technology, and learning how things work.</p>
+          </article>
+          <article class="hobby-card reveal">
+            <span class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m15 5 4 4M4 20l4.5-1 10-10a2.1 2.1 0 0 0-3-3l-10 10L4 20Z"/><path d="m13 7 4 4"/></svg></span>
+            <span class="card-index">04</span>
+            <h3>Editing</h3>
+            <p>I enjoy editing photos and videos and turning ideas into creative content.</p>
+          </article>
+          <article class="hobby-card reveal">
+            <span class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5"/><path d="M3 7V2h5M16 2h5v5"/></svg></span>
+            <span class="card-index">05</span>
+            <h3>Writing</h3>
+            <p>I enjoy writing stories, ideas, and different types of creative content.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills" aria-labelledby="skills-title">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> Things I do</p>
+            <h2 id="skills-title">My <span>skills.</span></h2>
+          </div>
+          <p class="heading-note">Skills grow with every project, page, and song.</p>
+        </div>
+        <div class="skills-list">
+          <article class="skill-row reveal">
+            <span class="skill-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 4l-4 16"/></svg></span>
+            <h3>Coding</h3>
+            <p>Building websites and exploring how technology can bring ideas to life.</p>
+            <span class="skill-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="skill-row reveal">
+            <span class="skill-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5"/></svg></span>
+            <h3>Writing</h3>
+            <p>Shaping thoughts into stories, clear words, and creative content.</p>
+            <span class="skill-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="skill-row reveal">
+            <span class="skill-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span>
+            <h3>Singing</h3>
+            <p>Sharing emotion and expression through music and voice.</p>
+            <span class="skill-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work" aria-labelledby="work-title">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> Where I create</p>
+            <h2 id="work-title">My <span>work.</span></h2>
+          </div>
+          <p class="heading-note">A place to learn, collaborate, and make stories.</p>
+        </div>
+        <article class="work-card reveal">
+          <div class="work-copy">
+            <p class="work-kicker"><span class="label-dot"></span> Current experience</p>
+            <h3>AC Films</h3>
+            <p>I currently work with AC Films, where I get to be involved in creative and film-related projects. This experience allows me to improve my skills, explore new ideas, and work with different creative projects.</p>
+            <span class="work-tag">Creative projects <span aria-hidden="true">·</span> Film</span>
+          </div>
+          <div class="work-art" aria-hidden="true">
+            <div class="film-frame">
+              <div class="film-top"><span></span><span></span><span></span><span></span></div>
+              <svg viewBox="0 0 120 100"><path d="M18 27h64a8 8 0 0 1 8 8v42a8 8 0 0 1-8 8H18a8 8 0 0 1-8-8V35a8 8 0 0 1 8-8Z"/><path d="m90 42 21-13v54L90 70z"/><circle cx="50" cy="56" r="17"/><circle cx="50" cy="56" r="7"/><path d="M25 27v58M75 27v58"/></svg>
+              <div class="film-bottom"><span></span><span></span><span></span><span></span></div>
+            </div>
+            <span class="art-caption">STORIES, IN THE MAKING</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-shell reveal">
+        <div class="contact-copy">
+          <p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> Say hello</p>
+          <h2 id="contact-title">Let’s <span>connect.</span></h2>
+          <p>Have a creative idea or just want to say hi? Find me on Facebook.</p>
+        </div>
+        <div class="contact-action">
+          <p class="contact-name">Mark Jerome T. Aguilar</p>
+          <!-- Replace this placeholder URL with your real Facebook profile link. -->
+          <a class="facebook-button" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Mark Jerome Aguilar on Facebook">
+            <span class="facebook-icon" aria-hidden="true">f</span>
+            <span>Jerome Aguilar <small>Facebook</small></span>
+            <span class="facebook-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+      <span class="contact-decoration" aria-hidden="true">MJA / 26</span>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#home">Mark Jerome T. Aguilar</a>
+    <p>© 2026 Mark Jerome T. Aguilar. All Rights Reserved.</p>
+    <a class="back-top" href="#home" aria-label="Back to top">↑</a>
+  </footer>
+</body>
+</html>
